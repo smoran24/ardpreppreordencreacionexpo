@@ -13,6 +13,12 @@
             "id": "ui5template.basicSAPUI5ApplicationProject",
             "version": "1.40.12"
         },
+        "dataSources": {
+            "mainService": {
+                "uri": "/destinations/AR_DP_DEST_HANA/ODATA_masterPedido.xsodata",
+                "type": "OData"
+            }
+        },
         "crossNavigation": {
             "inbounds": {
                 "ardpreppreordencreacionexpo-inbound": {
