@@ -26,7 +26,7 @@ sap.ui.define([
 
 	var oMessagePopover;
 
-	return Controller.extend("AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.controller.detalle", {
+	return Controller.extend("AR_DP_REP_CONVERSIONPREAPEDIDO_EX.AR_DP_REP_CONVERSIONPREAPEDIDO_EX.controller.detalle", {
 
 		onInit: function () {
 			var oRouter =
@@ -194,7 +194,7 @@ sap.ui.define([
 			//console.log(this);
 			//	flagperfil = false;
 			var a = "00";
-			sap.ui.controller("AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.controller.master").jsoncreacion2(a);
+			sap.ui.controller("AR_DP_REP_CONVERSIONPREAPEDIDO_EX.AR_DP_REP_CONVERSIONPREAPEDIDO_EX.controller.master").jsoncreacion2(a);
 			var arr3 = [];
 			var dataT = new sap.ui.model.json.JSONModel(arr3);
 			this.getView().setModel(dataT, "listadoMateriales");
@@ -449,7 +449,7 @@ sap.ui.define([
 			// create dialog lazily
 			if (!oDialog) {
 				// create dialog via fragment factory
-				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.view.PopUp", this);
+				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_CONVERSIONPREAPEDIDO_EX.AR_DP_REP_CONVERSIONPREAPEDIDO_EX.view.PopUp", this);
 				oView.addDependent(oDialog);
 			}
 			oDialog.open();
@@ -465,7 +465,7 @@ sap.ui.define([
 			// create dialog lazily
 			if (!oDialog) {
 				// create dialog via fragment factory
-				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.view.Succes", this); //aqui se debe cambiar ar_dp_rep
+				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_CONVERSIONPREAPEDIDO_EX.AR_DP_REP_CONVERSIONPREAPEDIDO_EX.view.Succes", this); //aqui se debe cambiar ar_dp_rep
 				oView.addDependent(oDialog);
 			}
 			oView.byId("dialogSucces").addStyleClass(this.getOwnerComponent().getContentDensityClass());

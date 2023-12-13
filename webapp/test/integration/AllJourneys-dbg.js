@@ -7,7 +7,7 @@ sap.ui.define([
 
 	Opa5.extendConfig({
 		arrangements: new Startup(),
-		viewNamespace: "AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.view.",
+		viewNamespace: "AR_DP_REP_CONVERSIONPREAPEDIDO_EX.AR_DP_REP_CONVERSIONPREAPEDIDO_EX.view.",
 		autoWait: true
 	});
 });

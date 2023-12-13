@@ -1,1 +1,1 @@
-sap.ui.define(["sap/ui/test/Opa5","./arrangements/Startup","./NavigationJourney"],function(e,a){"use strict";e.extendConfig({arrangements:new a,viewNamespace:"AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.view.",autoWait:true})});
+sap.ui.define(["sap/ui/test/Opa5","./arrangements/Startup","./NavigationJourney"],function(e,a){"use strict";e.extendConfig({arrangements:new a,viewNamespace:"AR_DP_REP_CONVERSIONPREAPEDIDO_EX.AR_DP_REP_CONVERSIONPREAPEDIDO_EX.view.",autoWait:true})});

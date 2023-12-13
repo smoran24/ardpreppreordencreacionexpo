@@ -1,4 +1,4 @@
-<mvc:View controllerName="AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.controller.app" xmlns:mvc="sap.ui.core.mvc"
+<mvc:View controllerName="AR_DP_REP_CONVERSIONPREAPEDIDO_EX.AR_DP_REP_CONVERSIONPREAPEDIDO_EX.controller.app" xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true" xmlns="sap.m">
 	<Shell id="shell">
 		<App >

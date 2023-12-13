@@ -1,11 +1,11 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO/AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO/model/models"
+	"AR_DP_REP_CONVERSIONPREAPEDIDO_EX/AR_DP_REP_CONVERSIONPREAPEDIDO_EX/model/models"
 ], function (UIComponent, Device, models) {
 	"use strict";
 
-	return UIComponent.extend("AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.Component", {
+	return UIComponent.extend("AR_DP_REP_CONVERSIONPREAPEDIDO_EX.AR_DP_REP_CONVERSIONPREAPEDIDO_EX.Component", {
 
 		metadata: {
 			manifest: "json"

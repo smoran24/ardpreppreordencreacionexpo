@@ -1,1 +1,1 @@
-sap.ui.define(["AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO/AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO/controller/app.controller"],function(t){"use strict";QUnit.module("app Controller");QUnit.test("I should test the app controller",function(n){var o=new t;o.onInit();n.ok(o)})});
+sap.ui.define(["AR_DP_REP_CONVERSIONPREAPEDIDO_EX/AR_DP_REP_CONVERSIONPREAPEDIDO_EX/controller/app.controller"],function(t){"use strict";QUnit.module("app Controller");QUnit.test("I should test the app controller",function(n){var o=new t;o.onInit();n.ok(o)})});

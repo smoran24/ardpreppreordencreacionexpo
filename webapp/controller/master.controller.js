@@ -21,7 +21,7 @@ sap.ui.define([
 		PreOrden2,
 		Respuesta = [],
 		datosC = [];
-	return Controller.extend("AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.controller.master", {
+	return Controller.extend("AR_DP_REP_CONVERSIONPREAPEDIDO_EX.AR_DP_REP_CONVERSIONPREAPEDIDO_EX.controller.master", {
 
 		onInit: function () {
 			t = this;
@@ -394,7 +394,7 @@ sap.ui.define([
 			var dealer = oView.byId("dealer").getSelectedKey();
 			console.log(Respuesta);
 
-			sap.ui.controller("AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.controller.detalle").jsoncreacion(Respuesta,
+			sap.ui.controller("AR_DP_REP_CONVERSIONPREAPEDIDO_EX.AR_DP_REP_CONVERSIONPREAPEDIDO_EX.controller.detalle").jsoncreacion(Respuesta,
 				dealer, datosC, oSAPuser, nombreUsuario, isNissanUser);
 			var oRouter =
 				sap.ui.core.UIComponent.getRouterFor(this);
@@ -416,7 +416,7 @@ sap.ui.define([
 			// create dialog lazily
 			if (!oDialog) {
 				// create dialog via fragment factory
-				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.view.PopUp", this);
+				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_CONVERSIONPREAPEDIDO_EX.AR_DP_REP_CONVERSIONPREAPEDIDO_EX.view.PopUp", this);
 				oView.addDependent(oDialog);
 			}
 			oDialog.open();
@@ -433,7 +433,7 @@ sap.ui.define([
 			// create dialog lazily
 			if (!oDialog) {
 				// create dialog via fragment factory
-				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.view.Correo", this);
+				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_CONVERSIONPREAPEDIDO_EX.AR_DP_REP_CONVERSIONPREAPEDIDO_EX.view.Correo", this);
 				oView.addDependent(oDialog);
 			}
 			oDialog.open();
@@ -520,7 +520,7 @@ sap.ui.define([
 			// create dialog lazily
 			if (!oDialog) {
 				// create dialog via fragment factory
-				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.AR_DP_REP_CONVERSIONPREAPEDIDO_EXPO.view.SuccesCorreo",
+				oDialog = sap.ui.xmlfragment(oView.getId(), "AR_DP_REP_CONVERSIONPREAPEDIDO_EX.AR_DP_REP_CONVERSIONPREAPEDIDO_EX.view.SuccesCorreo",
 					this); //aqui se debe cambiar ar_dp_rep
 				oView.addDependent(oDialog);
 			}
