@@ -356,7 +356,7 @@ sap.ui.define([
 								t.popSucces(arr, "Pedido Creado Exitosamente");
 
 								let idPedidoCreado = mensaje.split(":")[1].trim();
-								t.generarEntradaAuditoria(idPedidoCreado);
+								//t.generarEntradaAuditoria(idPedidoCreado);
 
 							} else {
 								//console.log(mensaje);
@@ -379,7 +379,7 @@ sap.ui.define([
 								t.popSucces(arr, "Pedido Creado Exitosamente");
 
 								let idPedidoCreado = mensaje.split(":")[1].trim();
-								t.generarEntradaAuditoria(idPedidoCreado);
+								//t.generarEntradaAuditoria(idPedidoCreado);
 
 							} else {
 								//console.log(mensaje);
